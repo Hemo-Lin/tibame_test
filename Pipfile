@@ -5,7 +5,12 @@ name = "pypi"
 
 [packages]
 flask = "==2.3.3"
-crawler-hemo = {editable = true, path = "."}
+celery = "==5.5.0"
+crawler = {editable = true, path = "."}
+pandas = "*"
+requests = "*"
+apscheduler = "==3.10.4"
+loguru = "==0.6.0"
 
 [dev-packages]
 
