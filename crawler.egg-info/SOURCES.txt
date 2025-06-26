@@ -1,8 +1,8 @@
 README.md
-pyproject.toml
 setup.py
 crawler/__init__.py
 crawler/config.py
+crawler/convert_json_to_dataframe.py
 crawler/producer.py
 crawler/producer_crawler_finmind.py
 crawler/producer_multi_queue.py
@@ -10,6 +10,8 @@ crawler/scheduler.py
 crawler/tasks.py
 crawler/tasks_crawler_finmind.py
 crawler/test.py
+crawler/upload_data_to_mysql.py
+crawler/upload_duplicate_data_to_mysql.py
 crawler/worker.py
 crawler.egg-info/PKG-INFO
 crawler.egg-info/SOURCES.txt
